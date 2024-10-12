@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+    background: url(image/pexels-dushenkovsky-4100130.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+.key{
+    border:4px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .1rem;
+    transition: all 0.6s;
+    border-color: #000000;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background:rgba(0, 0, 0, 0.4);
+    text-shadow:0 0 5px black;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pFirst{
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+    color: black;
+    font-style: italic;
+    display: block;
+}
+
+.sound{
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color:#ffc600;
+    text-transform: uppercase;
+}
+
+.playing{
+    transform:scale(1.5);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
